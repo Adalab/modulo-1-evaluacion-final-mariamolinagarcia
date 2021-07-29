@@ -1,3 +1,10 @@
-.page__header {
-  background-image: "./assets/images/cover.jpg" alt= "cover-hero";
+.header__nav {
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
 }

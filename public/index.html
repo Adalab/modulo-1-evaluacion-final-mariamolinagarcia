@@ -5,7 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Módulo 1 Evaluación final</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/main.css" />
 
 </head>
@@ -14,12 +17,23 @@
   <div class="page">
     <header class="page__header">
       <nav class="header__nav">
-        <img class="header__nav--burger" src="./assets/images/ico-menu.svg" alt="Adalab">
+        <a href="https://adalab.es/" alt="adalab" title="adalab.es" target="_blank"><img class="header__nav--burger"
+            src="./assets/images/ico-menu.svg" alt="Adalab"></a>
       </nav>
-      <h1>Anonymnous proxy</h1>
-      <h2>in hac habitasse platea dictumst</h2>
+
     </header>
+
     <main class="main">
+      <section class="hero">
+          <h1 class="hero__title">Anonymous proxy</h1>
+          <h2 class="hero__subtitle">In hac habitasse platea dictumst.</h2>
+          <div class="hero__button"><a href="#3reasons" alt="button scroll down" title="scroll down"><img
+                      class="hero__button--arrow" src="./assets/images/ico-scroll-down.svg" alt="button scroll down"></a>
+          </div>
+
+
+
+      </section>
       <section class="main__section--first">
           <article>
               <h2></h2>
@@ -35,7 +49,7 @@
       </section>
       <section class="main__section--second">
 
-          3 reasons to purchase
+          <h2 id="3reasons"></h2>3 reasons to purchase
 
           <article>
               Ut sed metus

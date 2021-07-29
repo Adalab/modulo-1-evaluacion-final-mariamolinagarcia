@@ -135,16 +135,60 @@ table {
   color: #000; }
 
 body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url("../images/bg-adalab.png");
   background-color: #f3f4f5;
   font-family: "Roboto", sans-serif; }
 
 .main {
   background-color: white; }
 
-.page__header {
-  background-image: "./assets/images/cover.jpg" alt= "cover-hero"; }
+.header__nav {
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed; }
+
+.hero {
+  background: url("/assets/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .hero__title {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 13vw;
+    font-weight: bold;
+    line-height: 15vw;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 200px; }
+  .hero__subtitle {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 4.96vw;
+    line-height: 15vw; }
+  .hero__button {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    bottom: 53px; }
+  .hero--arrow {
+    padding: 15px;
+    transform: translate(0, 3px); }
 
 /*# sourceMappingURL=main.css.map */
