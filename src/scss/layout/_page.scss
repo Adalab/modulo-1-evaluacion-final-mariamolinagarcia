@@ -1,8 +1,26 @@
 body {
   background-color: $color-bg;
   font-family: $font-main;
+  font-size: $font-size;
 }
 
 .main {
   background-color: white;
+}
+
+h2 {
+  font-family: $font-titles;
+  font-size: 24px;
+  line-height: 1.25;
+  text-transform: capitalize;
+}
+h3 {
+  font-family: $font-titles;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+p {
+  line-height: 1.67;
 }
