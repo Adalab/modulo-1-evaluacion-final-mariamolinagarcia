@@ -252,7 +252,6 @@ p {
     margin-left: 70px;
     margin-right: 70px; }
   .main__section--second__button {
-    width: 300px;
     height: 45px;
     background-color: #f26002;
     font-size: 20px;
@@ -263,8 +262,10 @@ p {
     align-items: center;
     justify-content: center; }
     .main__section--second__button .button-link {
+      width: 300px;
       font-weight: 900;
       color: white;
+      text-transform: capitalize;
       padding: 15px;
       transform: scale(1);
       transition: transform ease 1s; }
