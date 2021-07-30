@@ -3,6 +3,11 @@
   padding-left: 15px;
   padding-right: 15px;
   height: 290px;
+  @media all and (min-width: 768px) {
+    padding-left: 39px;
+    padding-right: 39px;
+    height: 330px;
+  }
 
   &__small {
     color: #8ccbea;
@@ -12,11 +17,15 @@
 
   h2 {
     line-height: 2.3;
+    font-size: 24px;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      padding-bottom: 30px;
+    }
   }
 
   &__button {
     color: #f26002;
-
     width: 76px;
     height: 45px;
     border: solid 2px #f26002;
@@ -25,8 +34,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-
     transition: color ease 1s;
+
     &:hover {
       background-color: #f26002;
       color: white;
@@ -38,6 +47,9 @@
     }
     .button-link:hover {
       color: white;
+    }
+    @media all and (min-width: 768px) {
+      width: 91px;
     }
   }
 }

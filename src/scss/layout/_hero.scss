@@ -22,12 +22,24 @@
       word-spacing: 1500px;
       line-height: 1.31;
       text-transform: uppercase;
+      @media all and (min-width: 768px) {
+        font-size: 80px;
+      }
+      @media all and (min-width: 1280px) {
+        font-size: 100px;
+      }
     }
     &--subtitle {
       font-family: $font-main;
       color: white;
       font-size: 16px;
       line-height: 2.3;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+      }
+      @media all and (min-width: 1280px) {
+        font-size: 24px;
+      }
     }
 
     &--button {
@@ -43,6 +55,13 @@
       margin-bottom: 53px;
       margin-top: 45px;
 
+      @media all and (min-width: 768px) {
+        margin-bottom: 45px;
+      }
+
+      @media all and (min-width: 1280px) {
+        margin-bottom: 13px;
+      }
       &__arrow {
         padding: 15px;
         transform: translate(0, 3px);
