@@ -26,9 +26,19 @@
     padding-right: 80px;
   }
 
-  .item1 {
+  & .item1 {
     @media all and (min-width: 768px) {
       grid-column: 1 / 4;
+    }
+  }
+  & .item2 {
+    @media all and (min-width: 768px) {
+      grid-column: 1 / 2;
+    }
+  }
+  & .item3 {
+    @media all and (min-width: 768px) {
+      grid-column: 2 / 3;
     }
   }
 
@@ -48,14 +58,13 @@
 
     @media all and (min-width: 768px) {
       width: 230px;
-      margin-top: 20px;
       grid-column: 1 / 4;
+      grid-row-start: 3;
     }
     @media all and (min-width: 1280px) {
       width: 255px;
-      margin-top: 60px;
-      margin-bottom: 60px;
       grid-column: 1 / 4;
+      grid-row-start: 3;
     }
     &:hover {
       transform: scale(1.2);
