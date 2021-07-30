@@ -1,6 +1,6 @@
 .main__section--second {
   background-color: #eff9ff;
-
+  width: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 30px;
@@ -25,10 +25,10 @@
     height: 45px;
     background-color: #f26002;
     font-size: 20px;
-
+    max-width: 300px;
     border-radius: 22.5px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;

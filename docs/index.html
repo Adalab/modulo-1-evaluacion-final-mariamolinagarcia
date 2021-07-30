@@ -1,68 +1,116 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<html lang="en">
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Módulo 1 Evaluación final</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css" />
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+</head>
+
+<body>
+  <div class="page">
+    <header class="page__header">
+      <nav class="header__nav">
+        <a href="https://adalab.es/" alt="adalab" title="adalab.es" target="_blank"><img class="header__nav--burger"
+            src="./assets/images/ico-menu.svg" alt="Adalab"></a>
+      </nav>
+
+    </header>
+
+    <main class="main">
+      <section class="hero">
+          <div class="hero__container">
+              <h1 class="hero__container--title">Anonymous proxy</h1>
+              <h2 class="hero__container--subtitle">In hac habitasse platea dictumst.</h2>
+
+              <div class="hero__container--button"><a href="#3reasons" alt="button scroll down" title="scroll down"><img
+                          class="hero__container--button__arrow" src="./assets/images/ico-scroll-down.svg"
+                          alt="button scroll down"></a>
+              </div>
+          </div>
+
+
+      </section>
+      <section class="main__section--first">
+          <article>
+              <span class="main__section--first__small">Insomnia tips</span>
+              <h2>Looking though a window</h2>
+
+              <p>
+                   Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus
+        semper
+        sodales rutrum.
+              </p>
+
+              <div class="main__section--first__button"><a class="button-link" href="">Go</a></div>
+          </article>
+      </section>
+      <section class="main__section--second">
+
+          <h2 class="item1" id="3reasons">3 reasons to purchase</h2>
+
+          <article class="item2">
+              <h3>Ut sed metus</h3>
+
+              <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. </p>
+
+          </article>
+
+          <article class="item3">
+              <h3>Curabitur ac erat</h3>
+              <p>Mauris mattis urna quis lorem molestie. Mauris mattis urna quis lorem molestie.</p>
+          </article>
+
+          <article class="item4">
+              <h3>Morbi dictum</h3>
+              <p>Aliquam in dolor et dolor tincidunt. Aliquam in dolor et dolor tincidunt.</p>
+          </article>
+
+          <div class="main__section--second__button"><a class="button-link" href="">More reasons</a></div>
+      </section>
+
+
+    </main>
+    <footer class="footer">
+
+      <div class="footer__arrow"><a href="#" alt=""><img class="footer__arrow--image" src="./assets/images/ico-arrow.svg"
+            title="" alt=""></a>
+      </div>
+
+      <div class="footer__copy">
+        <p>&copy;2021</p>
+        <p>we &#129505 compponents</p>
+      </div>
+
+      <nav class="footer__nav">
+
+        <ul class="footer__nav--list">
+          <li class="footer__nav--list__item">Articles</li>
+          <li class="footer__nav--list__item">Books</li>
+          <li class="footer__nav--list__item">Events</li>
+          <li class="footer__nav--list__item">Reasons</li>
+          <li class="footer__nav--list__item">Tips</li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
+      </nav>
+
+
+      <div class="footer__social">
+
+        <ul class="footer__social--list">
+          <li class="footer__social--list__item">Twitter</li>
+          <li class="footer__social--list__item">Instagram</li>
+          <li class="footer__social--list__item">Mastodon.social</li>
         </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </div>
+    </footer>
+  </div>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+</body>
 
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
 </html>

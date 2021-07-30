@@ -239,6 +239,7 @@ p {
 
 .main__section--second {
   background-color: #eff9ff;
+  width: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 30px;
@@ -254,9 +255,10 @@ p {
     height: 45px;
     background-color: #f26002;
     font-size: 20px;
+    max-width: 300px;
     border-radius: 22.5px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,8 +279,7 @@ p {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.8;
-  padding-top: 35px;
-  padding-left: 40px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column; }
   .footer__copy {
@@ -301,7 +302,7 @@ p {
     justify-content: center;
     align-items: center;
     align-content: center;
-    transform: translate(41vw, -55px); }
+    transform: translate(46vw, -55px); }
     .footer__arrow--image {
       transform: translate(0, 4px);
       padding: 10px; }
