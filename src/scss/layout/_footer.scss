@@ -8,19 +8,22 @@
 
   display: flex;
   flex-direction: column;
-
+  align-items: center;
+  p {
+    line-height: 2.14;
+  }
   &__copy {
     text-transform: initial;
     order: 3;
-    margin-top: 30px;
-    margin-bottom: 45px;
+    padding-top: 30px;
+    padding-bottom: 45px;
   }
   &__nav {
     order: 1;
   }
   &__social {
     order: 2;
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   &__arrow {
@@ -32,8 +35,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    transform: translate(46vw, -55px);
+
+    transform: translate(0, -55px);
     &--image {
       transform: translate(0, 4px);
       padding: 10px;
