@@ -72,9 +72,12 @@
     .button-link {
       font-weight: 900;
       color: white;
-      text-transform: capitalize;
 
       padding: 50px;
+
+      @media all and (min-width: 1280px) {
+        text-transform: capitalize;
+      }
     }
   }
 }

@@ -1,3 +1,18 @@
 a {
   text-decoration: none;
 }
+// FOOTER arrow animation
+
+@keyframes arrow {
+  from {
+    transform: translateY(-50px);
+  }
+
+  50% {
+    transform: translateY(-70px);
+  }
+
+  to {
+    transform: translateY(-50px);
+  }
+}
