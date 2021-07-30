@@ -142,15 +142,29 @@ h2 {
   font-size: 24px;
   line-height: 1.25;
   text-transform: capitalize; }
+  @media all and (min-width: 768px) {
+    h2 {
+      font-size: 26px; } }
+  @media all and (min-width: 1280px) {
+    h2 {
+      font-size: 32px; } }
 
 h3 {
   font-family: "Roboto Slab", serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.25; }
+  @media all and (min-width: 768px) {
+    h3 {
+      font-size: 24px; } }
 
 p {
+  font-size: 18px;
   line-height: 1.67; }
+  @media all and (min-width: 768px) {
+    p {
+      font-size: 20px;
+      line-height: 1.5; } }
 
 .header__nav {
   background-color: #0271bc;
@@ -232,17 +246,19 @@ p {
       padding-left: 39px;
       padding-right: 39px;
       height: 330px; } }
+  @media all and (min-width: 1280px) {
+    .main__section--first {
+      height: 360px;
+      padding-left: 275px;
+      padding-right: 275px;
+      padding-top: 60px; } }
   .main__section--first__small {
     color: #8ccbea;
     font-size: 14px;
     line-height: 2.14; }
-  .main__section--first h2 {
-    line-height: 2.3;
-    font-size: 24px; }
-    @media all and (min-width: 768px) {
-      .main__section--first h2 {
-        font-size: 26px;
-        padding-bottom: 30px; } }
+  @media all and (min-width: 768px) {
+    .main__section--first h2 {
+      padding-bottom: 30px; } }
   .main__section--first__button {
     color: #f26002;
     width: 76px;
@@ -253,19 +269,27 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    transition: color ease 1s; }
+    transition: background-color ease 1s; }
     .main__section--first__button:hover {
       background-color: #f26002;
       color: white;
       border: solid 2px white; }
     .main__section--first__button .button-link {
       color: #f26002;
-      padding: 25px; }
-    .main__section--first__button .button-link:hover {
-      color: white; }
+      padding: 25px;
+      font-size: 20px; }
+      @media all and (min-width: 1280px) {
+        .main__section--first__button .button-link {
+          padding-left: 110px;
+          padding-right: 110px; } }
+      .main__section--first__button .button-link:hover {
+        color: white; }
     @media all and (min-width: 768px) {
       .main__section--first__button {
         width: 91px; } }
+    @media all and (min-width: 1280px) {
+      .main__section--first__button {
+        width: 160px; } }
 
 .main__section--second {
   background-color: #eff9ff;
@@ -288,32 +312,45 @@ p {
       column-gap: 27px;
       padding-left: 40px;
       padding-right: 40px; } }
+  @media all and (min-width: 1280px) {
+    .main__section--second {
+      height: 427px;
+      grid-template-rows: 45px 115px 45px;
+      padding-left: 80px;
+      padding-right: 80px; } }
   @media all and (min-width: 768px) {
     .main__section--second .item1 {
       grid-column: 1 / 4; } }
   .main__section--second__button {
     height: 45px;
+    width: 230px;
     background-color: #f26002;
     font-size: 20px;
-    max-width: 300px;
     border-radius: 22.5px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     transition: transform ease 1s; }
+    @media all and (min-width: 768px) {
+      .main__section--second__button {
+        width: 230px;
+        margin-top: 20px;
+        grid-column: 1 / 4; } }
+    @media all and (min-width: 1280px) {
+      .main__section--second__button {
+        width: 255px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        grid-column: 1 / 4; } }
     .main__section--second__button:hover {
       transform: scale(1.2); }
     .main__section--second__button .button-link {
-      width: 300px;
       font-weight: 900;
       color: white;
       text-transform: capitalize;
-      padding: 15px; }
-    @media all and (min-width: 768px) {
-      .main__section--second__button {
-        margin-top: 20px;
-        grid-column: 1 / 4; } }
+      padding: 50px; }
 
 .footer {
   background-color: #304268;
@@ -332,6 +369,11 @@ p {
       align-items: flex-start;
       padding-left: 40px;
       padding-top: 45px; } }
+  @media all and (min-width: 1280px) {
+    .footer {
+      align-items: center;
+      padding-left: 370px;
+      padding-right: 370px; } }
   .footer__copy {
     text-transform: initial;
     order: 3;
@@ -339,7 +381,12 @@ p {
     padding-bottom: 45px; }
     @media all and (min-width: 768px) {
       .footer__copy {
-        padding-top: 0px; } }
+        padding-top: 0px;
+        transform: translate(0, -50px); } }
+    @media all and (min-width: 1280px) {
+      .footer__copy {
+        width: 160px;
+        padding-right: 30px; } }
     .footer__copy p {
       line-height: 2.14; }
     @media all and (min-width: 768px) {
@@ -350,22 +397,29 @@ p {
         justify-content: flex-start; } }
   .footer__nav {
     order: 1; }
+    .footer__nav a {
+      color: white; }
     @media all and (min-width: 768px) {
       .footer__nav {
         order: 2;
         text-align: left; } }
-    .footer__nav a {
-      color: white; }
+    @media all and (min-width: 1280px) {
+      .footer__nav {
+        width: 160px;
+        padding-right: 30px; } }
   .footer__social {
     order: 2;
     padding-top: 30px; }
+    .footer__social a {
+      color: white; }
     @media all and (min-width: 768px) {
       .footer__social {
         order: 3;
         text-align: left;
         padding-top: 0px; } }
-    .footer__social a {
-      color: white; }
+    @media all and (min-width: 1280px) {
+      .footer__social {
+        width: 160px; } }
   .footer__arrow {
     background-color: white;
     width: 45px;
@@ -379,6 +433,9 @@ p {
     @media all and (min-width: 768px) {
       .footer__arrow {
         transform: translate(46vw, -65px); } }
+    @media all and (min-width: 1280px) {
+      .footer__arrow {
+        transform: translate(14vw, -65px); } }
     .footer__arrow--image {
       transform: translate(0, 4px);
       padding: 10px; }
