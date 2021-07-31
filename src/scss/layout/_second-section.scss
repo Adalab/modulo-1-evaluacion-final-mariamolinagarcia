@@ -1,5 +1,5 @@
 .main__section--second {
-  background-color: #eff9ff;
+  background-color: $color-bg-second-section;
   height: 624px;
   padding-top: 30px;
   padding-left: 70px;
@@ -45,7 +45,7 @@
   &__button {
     height: 45px;
     width: 230px;
-    background-color: #f26002;
+    background-color: $color-buttons;
     font-size: 20px;
     border-radius: 22.5px;
     margin-left: auto;
